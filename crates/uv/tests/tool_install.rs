@@ -534,8 +534,6 @@ fn tool_install_remove_on_empty() -> Result<()> {
         name = "black"
         version = "0.1.0"
         description = "Black without any entrypoints"
-        authors = []
-        dependencies = []
         requires-python = ">=3.11,<3.13"
 
         [build-system]

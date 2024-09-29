@@ -547,7 +547,7 @@ fn compile_pyproject_toml_poetry() -> Result<()> {
 name = "poetry-editable"
 version = "0.1.0"
 description = ""
-authors = ["Astral Software Inc. <hey@astral.sh>"]
+authors = [{ name = "Astral Software Inc.", email = "hey@astral.sh" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -606,13 +606,13 @@ fn compile_pyproject_toml_poetry_empty_dependencies() -> Result<()> {
 name = "poetry-editable"
 version = "0.1.0"
 description = ""
-authors = ["Astral Software Inc. <hey@astral.sh>"]
+authors = [{ name = "Astral Software Inc.", email = "hey@astral.sh" }]
 
 [tool.poetry]
 name = "poetry-editable"
 version = "0.1.0"
 description = ""
-authors = ["Astral Software Inc. <hey@astral.sh>"]
+authors = [{ name = "Astral Software Inc.", email = "hey@astral.sh" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -657,13 +657,13 @@ fn compile_pyproject_toml_poetry_invalid_dependencies() -> Result<()> {
 name = "poetry-editable"
 version = "0.1.0"
 description = ""
-authors = ["Astral Software Inc. <hey@astral.sh>"]
+authors = [{ name = "Astral Software Inc.", email = "hey@astral.sh" }]
 
 [tool.poetry]
 name = "poetry-editable"
 version = "0.1.0"
 description = ""
-authors = ["Astral Software Inc. <hey@astral.sh>"]
+authors = [{ name = "Astral Software Inc.", email = "hey@astral.sh" }]
 
 [project.dependencies]
 python = "^3.12"
